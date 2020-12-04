@@ -455,7 +455,7 @@ header .container .navigation a:hover p {
   justify-content: center;
   align-items: center;
   border-radius: 30px;
-  background-size: auto;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   filter: drop-shadow(0px 4px 35px rgba(0, 0, 255, 0.15));
@@ -542,9 +542,9 @@ header .container .navigation a:hover p {
 .chapters-section .container .chapters-items .item:nth-child(4) .video {
   width: 670px;
   height: 348px;
-}
-.chapters-section .container .chapters-items .item:nth-child(4) .video .adaptive-image-320 {
-  display: none;
+  background-image: url("../images/ebook.png");
+  background-position: 0 15%;
+  background-size: 100%;
 }
 .chapters-section .container .chapters-items .item:nth-child(4) .caption {
   width: 470px;
@@ -1009,11 +1009,6 @@ footer .bottom-links-container .bottom-links .rights a {
     width: 562px;
     height: 349px;
   }
-  .chapters-section .container .chapters-items .item:nth-child(4) .video img {
-    width: 620px;
-    height: 420px;
-    margin-top: 8px;
-  }
   .chapters-section .container .chapters-items .item:nth-child(4) .caption {
     width: 393px;
     height: 349px;
@@ -1119,14 +1114,8 @@ footer .bottom-links-container .bottom-links .rights a {
   .chapters-section .container .chapters-items .item:nth-child(2), .chapters-section .container .chapters-items .item:nth-child(4) {
     flex-direction: column;
   }
-  .chapters-section .container .chapters-items .item:nth-child(4) {
-    width: 840px;
-  }
   .chapters-section .container .chapters-items .item:nth-child(4) .video {
-    width: 100%;
-  }
-  .chapters-section .container .chapters-items .item:nth-child(4) .video img {
-    width: 100%;
+    width: 753px;
     height: 393px;
   }
   .chapters-section .container .chapters-items .item:nth-child(4) .caption {
@@ -1248,10 +1237,9 @@ footer .bottom-links-container .bottom-links .rights a {
     align-items: center;
   }
   .chapters-section .container .chapters-items .item .video {
-    width: 643px;
-    height: 393px;
-    margin-bottom: 0;
-    background-size: contain;
+    width: 585px;
+    height: 342px;
+    margin-bottom: 15px;
   }
   .chapters-section .container .chapters-items .item .caption {
     width: 585px;
@@ -1263,15 +1251,9 @@ footer .bottom-links-container .bottom-links .rights a {
   .chapters-section .container .chapters-items .item .caption .caption-container .main-text {
     width: 100%;
   }
-  .chapters-section .container .chapters-items .item:nth-child(4) {
-    width: 643px;
-  }
   .chapters-section .container .chapters-items .item:nth-child(4) .video {
-    width: 100%;
-  }
-  .chapters-section .container .chapters-items .item:nth-child(4) .video img {
-    width: 100%;
-    height: 393px;
+    width: 585px;
+    height: 342px;
   }
   .chapters-section .container .chapters-items .item:nth-child(4) .caption {
     width: 585px;
@@ -1425,7 +1407,7 @@ footer .bottom-links-container .bottom-links .rights a {
   }
   .chapters-section .container .chapters-items .item .video {
     width: 732px;
-    background-size: auto;
+    height: 418px;
     border-radius: 50px;
     margin-bottom: 15px;
   }
@@ -1446,14 +1428,8 @@ footer .bottom-links-container .bottom-links .rights a {
   .chapters-section .container .chapters-items .item .caption .caption-container .main-text {
     font-size: 25px;
   }
-  .chapters-section .container .chapters-items .item:nth-child(4) {
-    width: 810px;
-  }
   .chapters-section .container .chapters-items .item:nth-child(4) .video {
-    width: 100%;
-  }
-  .chapters-section .container .chapters-items .item:nth-child(4) .video img {
-    width: 100%;
+    width: 732px;
   }
   .chapters-section .container .chapters-items .item:nth-child(4) .caption {
     width: 735px;
@@ -1651,12 +1627,6 @@ footer .bottom-links-container .bottom-links .rights a {
   .chapters-section .container .chapters-items .item .caption .caption-container .main-text {
     font-size: 40px;
     margin-bottom: 70px;
-  }
-  .chapters-section .container .chapters-items .item:nth-child(4) .video img:first-child {
-    display: none;
-  }
-  .chapters-section .container .chapters-items .item:nth-child(4) .video img:nth-child(2) {
-    display: block;
   }
   .chapters-section .container .chapters-items .item:nth-child(4) .caption {
     height: auto;

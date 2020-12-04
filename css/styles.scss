@@ -508,7 +508,7 @@ header {
                     justify-content: center;
                     align-items: center;
                     border-radius: 30px;
-                    background-size: auto;
+                    background-size: 100% 100%;
                     background-repeat: no-repeat;
                     background-position: center;
                     filter: drop-shadow(0px 4px 35px rgba(0, 0, 255, 0.15));
@@ -606,9 +606,9 @@ header {
                     .video {
                         width: 670px;
                         height: 348px;
-                        .adaptive-image-320 {
-                            display: none;
-                        }
+                        background-image: url('../images/ebook.png');
+                        background-position: 0 15%;
+                        background-size: 100%;
                     }
 
                     .caption {
@@ -1166,11 +1166,6 @@ footer {
                         .video {
                             width: 562px;
                             height: 349px;
-                            img {
-                                width: 620px;
-                                height: 420px;
-                                margin-top: 8px;
-                            }
                         }
 
                         .caption {
@@ -1337,16 +1332,11 @@ footer {
                         flex-direction: column;
                     }
 
-                    &:nth-child(4){
-                        width: 840px;
+                    &:nth-child(4){ 
                         .video {
-                            width: 100%;
-                            img {
-                                width: 100%;
-                                height: 393px;
-                            }
-                        }  
-
+                            width: 753px;
+                            height: 393px;
+                        }
                         .caption {
                             width: 753px;
                             height: 259px;
@@ -1554,10 +1544,9 @@ footer {
                     flex-direction: column;
                     align-items: center;
                     .video {
-                        width: 643px;
-                        height: 393px;
-                        margin-bottom: 0;
-                        background-size: contain;
+                        width: 585px;
+                        height: 342px;
+                        margin-bottom: 15px;
                     }
 
                     .caption {
@@ -1572,15 +1561,10 @@ footer {
                     }
 
                     &:nth-child(4){
-                        width: 643px;
                         .video {
-                            width: 100%;
-                            img {
-                                width: 100%;
-                                height: 393px;
-                            }
-                        }  
-
+                            width: 585px;
+                            height: 342px;
+                        }
                         .caption {
                             width: 585px;
                             height: 259px;
@@ -1777,7 +1761,7 @@ footer {
                 .item {
                     .video {
                         width: 732px;
-                        background-size: auto;
+                        height: 418px;
                         border-radius: 50px;
                         margin-bottom: 15px;
                     }
@@ -1803,14 +1787,9 @@ footer {
                     }
 
                     &:nth-child(4) {
-                        width: 810px;
                         .video {
-                            width: 100%;
-                            img {
-                                width: 100%;
-                            }
+                            width: 732px;
                         }
-
                         .caption {
                             width: 735px;
                             height: 490px;
@@ -2080,16 +2059,6 @@ footer {
                     }
 
                     &:nth-child(4) {
-                        .video {
-                            img:first-child {
-                                display: none;
-                            }
-
-                            img:nth-child(2){
-                                display: block;
-                            }
-                        }
-
                         .caption {
                             height: auto;
                             .caption-container {
